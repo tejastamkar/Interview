@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import logo from './logo.svg';
+import "./styles/App.css";
+import tick from "./assets/check.png";
+import Buttons from "./components/buttons";
+import Cards from "./components/Cards";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <h1 className="title">Live Space</h1>
+      <div className="subTitleSection">
+        <img src={tick} alt="tick" className="tick" />
+        <p className="subtitle">
+          All NFTs on Cyber either belong to or were minted by their space
+          creator.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div className="BtnSection">
+        <Buttons />
+      </div>
+      <div className="CardSection">
+        <Cards />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+.Main {
+  margin: 0px 20px;
+  display: flex;
+}
+.btn {
+  margin: 5px 10px;
+  box-shadow: none;
+  padding: 7px 20px;
+  border-style: solid;
+  text-align: center;
+  border-color: #eaecec;
+  border-radius: 20px;
+  background: none;
+}
+
+.icon {
+  width: 18px;
+  margin: -4px;
+  margin-right: 3px;
+}
+
+.Active {
+  background: black;
+  color: white;
+  margin: 5px 10px;
+  box-shadow: none;
+  padding: 7px 20px;
+  border-style: solid;
+  text-align: center;
+
+  border-radius: 20px;
+}
