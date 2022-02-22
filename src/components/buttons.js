@@ -14,7 +14,7 @@ export default function Buttons() {
   const [Void, setVoid] = useState("btn");
   const [Bayc, setBayc] = useState("btn");
 
-  const Activate = ({ index }) => {
+  const Activate = (index) => {
     switch (index) {
       case 1:
         setTrend("Active");
@@ -46,8 +46,8 @@ export default function Buttons() {
       case 4:
         setTrend("btn");
         setShows("btn");
-        setGenesis("btn");
-        setPopular("Active");
+        setGenesis("Active");
+        setPopular("btn");
         setTemple("btn");
         setVoid("btn");
         setBayc("btn");
