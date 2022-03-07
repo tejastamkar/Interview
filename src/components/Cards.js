@@ -4,7 +4,7 @@ export default function Cards() {
   return (
     <>
       {Data.map((data, index) => (
-        <Card Data={data} />
+        <Card Data={data} key={index} />
       ))}
     </>
   );
